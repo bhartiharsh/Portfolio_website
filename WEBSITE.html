@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HARSH KUMAR BHARTI</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script>
+        (function() {
+            // injected DOM script is not a content script anymore,
+            // it can modify objects and functions of the page
+            var _pushState = history.pushState;
+            history.pushState = function(state, title, url) {
+                _pushState.call(this, state, title, url);
+                window.dispatchEvent(
+                    new CustomEvent('state-changed', {
+                        detail: url
+                    })
+                );
+            };
+            // repeat the above for replaceState too
+        })();
+    </script>
+    <script>
+        (function() {
+            // injected DOM script is not a content script anymore,
+            // it can modify objects and functions of the page
+            var _pushState = history.pushState;
+            history.pushState = function(state, title, url) {
+                _pushState.call(this, state, title, url);
+                window.dispatchEvent(
+                    new CustomEvent('state-changed', {
+                        detail: url
+                    })
+                );
+            };
+            // repeat the above for replaceState too
+        })();
+    </script>
+    <script>
+        (function() {
+            // injected DOM script is not a content script anymore,
+            // it can modify objects and functions of the page
+            var _pushState = history.pushState;
+            history.pushState = function(state, title, url) {
+                _pushState.call(this, state, title, url);
+                window.dispatchEvent(
+                    new CustomEvent('state-changed', {
+                        detail: url
+                    })
+                );
+            };
+            // repeat the above for replaceState too
+        })();
+    </script>
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1018.0" data-gr-ext-installed="">
+
+    <header id="body-header">
+        <nav>
+            <div class="dropdown-menu text-right">
+                <div class="bars">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="dropdown-list nav-menu">
+                    <ul class="no-list-style">
+                        <li>
+                            <a href="#"> Home </a>
+                        </li>
+                        <li>
+                            <a href="#about"> About </a>
+                        </li>
+                        <li>
+                            <a href="#skills"> Skills </a>
+                        </li>
+                        <li>
+                            <a href="#experience">Experience</a>
+                        </li>
+                        <li>
+                            <a href="#education">Education</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <ul class="no-list-style horizontal-list text-center nav-menu">
+                <li>
+                    <a href="#"> Home </a>
+                </li>
+                <li>
+                    <a href="#about"> About </a>
+                </li>
+                <li>
+                    <a href="#skills"> Skills </a>
+                </li>
+                <li>
+                    <a href="#experience">Experience</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <div id="name-social-container">
+            <div class="text-center">
+                <h1 id="my-name">HARSH KUMAR BHARTI</h1>
+            </div>
+            <div>
+                <ul class="no-list-style horizontal-list text-center social-icons">
+                    <li>
+                        <a href="https://www.linkedin.com/in/">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="far fa-envelope"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.hackerrank.com/">
+                            <i class="fab fa-hackerrank"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </header>
+    <main>
+
+        <section id="about">
+            <div id="my-image">
+                <img src="http://kavach.net/digitalCard/img/C0073Harsh.jpg">
+            </div>
+
+            <div id="about-para">
+
+                <p>
+                    Energetic <span class="text-highlight">B.Tech</span> student eager to apply extensive knowledge of <span class="text-highlight">Software</span> and <span class="text-highlight">Technology</span> to achieve company goals. Dedicated
+                    to working hard to make positive contributions.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <section id="skills">
+            <h1 class="section-heading mb75px ">
+                <span>
+                    <i class="fas fa-chalkboard-teacher"></i>
+                </span>
+                <span> SKILLS </span>
+            </h1>
+
+            <div class="skills-display">
+
+                <div class="skill-progress">
+                    <div class="ninty-percent mb-blue">
+                        <div class="skill-name">
+                            <span> C++ </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="ninty-percent mb-orange">
+                        <div class="skill-name">
+                            <span> Python </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="ninty-percent mb-teal">
+                        <div class="skill-name">
+                            <span> Ds &amp; algo  </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="eighty-five-percent mb-orange">
+                        <div class="skill-name">
+                            <span> HTML </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="eighty-percent mb-light-purple">
+                        <div class="skill-name">
+                            <span> CSS </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="fifty-percent mb-teal">
+                        <div class="skill-name">
+                            <span> Javascript </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="fifty-percent mb-blue">
+                        <div class="skill-name">
+                            <span> NodeJs </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="experience">
+
+            <h1 class="section-heading mb75px">
+                <span>
+                    <i class="fas fa-briefcase"></i>
+                </span>
+                <span> Work Experience </span>
+            </h1>
+
+            <div class="timeline">
+
+                <div class="timeline-box ">
+                    <div class="timeline-container">
+                        <div class="timeline-logo">
+                            <img src="media/ieee.jpg">
+                        </div>
+                        <h3 class="experience-designation  m0 m-blue"> Member </h3>
+                        <h4 class="experience-company-name"> IEEE </h4>
+                        <h5 class="experience-duration m0"> August 2019 </h5>
+
+                        <p class="experience-description text-justify"> Core Member of Electronics Group in Team "Kalpana" of CANSAT project by Institute of Electrical and Electronics Engineers. </p>
+                    </div>
+                </div>
+                <div class="timeline-box right ">
+                    <div class="timeline-container">
+                        <div class="timeline-logo">
+                            <img src="media/IOSD.jpg">
+                        </div>
+                        <h3 class="experience-designation  m0 m-blue"> Member </h3>
+                        <h4 class="experience-company-name"> IOSD </h4>
+                        <h5 class="experience-duration m0"> August 2019 </h5>
+                        <p class="experience-description text-justify">Member at International Organisation of Software Developers</p>
+                    </div>
+                </div>
+                <div class="timeline-box ">
+                    <div class="timeline-container">
+                        <div class="timeline-logo">
+                            <img src="media/Nsut.jpg">
+                        </div>
+                        <h3 class="experience-designation  m0 m-blue"> Team Member </h3>
+                        <h4 class="experience-company-name"> Sensor and Transducer </h4>
+                        <h5 class="experience-duration m0"> March 2021 </h5>
+
+                        <p class="experience-description text-justify"> Core member of the team working on an academic project based on sensors under the guidance of Prof.Dr. Jyoti Yadav, faculty of Sensors and Transducers,subject of ICE branch. </p>
+                    </div>
+                </div>
+                <div id="timeline-divider">
+                    <div class="timeline-traveller">
+                        <div>
+                            <i class="fas fa-plane"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="education">
+
+            <h1 class="section-heading mb75px">
+                <span>
+                    <i class="fas fa-graduation-cap"></i>
+                </span>
+                <span> Education </span>
+            </h1>
+
+            <div class="timeline">
+
+                <div class="timeline-box left ">
+                    <div class="timeline-container">
+                        <div class="timeline-logo">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Birla_Institute_of_Technology_Mesra.png/220px-Birla_Institute_of_Technology_Mesra.png">
+                        </div>
+                        <h3 class="experience-designation  m0 m-blue"> B.Tech </h3>
+                        <h4 class="experience-company-name ">BIT MISRA RANCHI</h4>
+                        <h5 class="experience-duration m0"> Auugust 2018-2022</h5>
+
+                        <p class="experience-description text-justify">Branch: <span class="text-highlight">INFORMATION TECHNOLOGY</span></p>
+                    </div>
+                </div>
+
+                <div class="timeline-box right ">
+                    <div class="timeline-container">
+                        <div class="timeline-logo">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuencTveGf4vcoD7AQdeROMZg2RBvHGKuPIe6w_VCtg2HXKqPyYRoj5BxpjlPOdDCzCck&amp;usqp=CAU">
+                        </div>
+                        <h3 class="experience-designation  m0 m-blue"> CBSE XIIth </h3>
+                        <h4 class="experience-company-name ">12TH School NAME</h4>
+                        <h5 class="experience-duration m0"> June 20XX - March 20XX </h5>
+                        <p class="experience-description text-justify"> Subject: <span class="text-highlight">PCM</span> and scored: <span class="text-highlight">54%</span> </p>
+                    </div>
+                </div>
+
+                <div class="timeline-box left ">
+                    <div class="timeline-container">
+                        <div class="timeline-logo">
+                            <img src="data:image/png;base64,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">
+                        </div>
+                        <h3 class="experience-designation  m0 m-blue"> CBSE Xth </h3>
+                        <h4 class="experience-company-name ">10TH School NAME</h4>
+                        <h5 class="experience-duration m0"> April 20XX - March 20XX </h5>
+
+                        <p class="experience-description text-justify"> Scored: <span class="text-highlight">8.8 Cgpa</span> </p>
+                    </div>
+                </div>
+
+                <div id="timeline-divider">
+                    <div class="timeline-traveller">
+                        <div>
+                            <i class="fas fa-car-side"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="portfolio">
+            <h1 class="section-heading mb75px">
+                <span>
+                    <i class="fas fa-th-list"></i>
+                </span>
+                <span>  Certificates </span>
+            </h1>
+
+            <div id="portfolio-container">
+
+                <div class="portfolio-image-container">
+                    <img src="https://cdn5.vectorstock.com/i/1000x1000/07/04/certificate-flourishes-elegant-template-vector-13450704.jpg">
+                    <div class="portfolio-details">
+                        <p>
+                            Issued on May 2021.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="portfolio-image-container">
+                    <img src="https://cdn5.vectorstock.com/i/1000x1000/07/04/certificate-flourishes-elegant-template-vector-13450704.jpg">
+
+
+                </div>
+                <div class="portfolio-image-container">
+                    <img src="https://cdn5.vectorstock.com/i/1000x1000/07/04/certificate-flourishes-elegant-template-vector-13450704.jpg">
+                    <div class="portfolio-details">
+                        <p>
+                            Issued on November 2020.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="portfolio-image-container">
+                    <img src="https://cdn5.vectorstock.com/i/1000x1000/07/04/certificate-flourishes-elegant-template-vector-13450704.jpg">
+                    <div class="portfolio-details">
+                        <p>
+                            Issued on October 2020.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1 class="section-heading mb50px">
+                <span>
+                    <i class="far fa-address-card"></i>
+                </span>
+                <span> Contact </span>
+            </h1>
+            <div id="contact-container">
+
+                <div id="contact-form-container">
+                    <form id="contact-form">
+                        <input id="input-name" name="name" type="text" placeholder="Your Name">
+                        <input id="input-email" name="input-email" type="text" required="" placeholder="Your Email">
+                        <textarea id="input-message" name="input-message" rows="2" cols="40" placeholder="Message"></textarea>
+                        <button class="sub-btn" type="submit">SEND MESSAGE</button>
+                    </form>
+                </div>
+                <div id="my-details-container">
+                    <h3> My Address </h3>
+                    <div class="my-details-info-container">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Bihar, India</span>
+                    </div>
+                    <div class="my-details-info-container">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>705XX61X2X</span>
+                    </div>
+                    <div class="my-details-info-container">
+                        <i class="far fa-envelope"></i>
+                        <span>hkbsmp@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center social-icons">
+
+                <ul class="no-list-style horizontal-list">
+
+                    <li>
+                        <a href="https://www.linkedin.com/in/">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">
+                            <i class="far fa-envelope"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.hackerrank.com/">
+                            <i class="fab fa-hackerrank"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+
+</body>
+
+</html>
